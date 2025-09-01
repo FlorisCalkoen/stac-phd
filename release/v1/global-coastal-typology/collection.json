@@ -274,13 +274,13 @@
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Calkoen PhD STAC"
+      "title": "Living by the Coast as Sea-level Rise is Accelerating"
     },
     {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Calkoen PhD STAC"
+      "title": "Living by the Coast as Sea-level Rise is Accelerating"
     }
   ],
   "stac_extensions": [

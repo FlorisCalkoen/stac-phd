@@ -31,11 +31,14 @@ class ItemInSubdirLayout(BestPracticesLayoutStrategy):
 
 # --- Configuration Constants ---
 CATALOG_ID = "calkoen-phd-stac"
-CATALOG_TITLE = "Calkoen PhD STAC"
+CATALOG_TITLE = "Living by the Coast as Sea-level Rise is Accelerating"
 CATALOG_DESCRIPTION = (
-    "A SpatioTemporal Asset Catalog (STAC) of global coastal datasets produced "
+    "This SpatioTemporal Asset Catalog (STAC) contains coastal datasets produced or cataloged "
     "during the PhD research of F.R. Calkoen (TU Delft / Deltares). The catalog includes data on "
-    "coastal classification, coastal exposure, shoreline change and related datasets."
+    "coastal classification, coastal exposure, and other related characteristics. "
+    "Following the conclusion of the CoCliCo project in September 2025, accessing the datasets "
+    "now requires an SAS token, which is available from Deltares upon reasonable request. Alternatively, "
+    "the datasets can be downloaded from Zenodo repositories. Please see associated publications for details."
 )
 
 # This is the future public URL of your catalog root.
