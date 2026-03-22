@@ -31,10 +31,11 @@ class ItemInSubdirLayout(BestPracticesLayoutStrategy):
 
 # --- Configuration Constants ---
 CATALOG_ID = "calkoen-phd-stac"
-CATALOG_TITLE = "Living by the Coast as Sea-level Rise is Accelerating"
+CATALOG_TITLE = "Living by the Coast with Accelerating Sea-level Rise"
 CATALOG_DESCRIPTION = (
     "This SpatioTemporal Asset Catalog (STAC) contains coastal datasets produced or cataloged "
-    "during the PhD research of F.R. Calkoen (TU Delft / Deltares). The catalog includes data on "
+    "during the PhD research of F.R. Calkoen (TU Delft / Deltares). The thesis can be found here: "
+    "https://doi.org/10.4233/uuid:2b81ed48-3ac7-435b-acbb-30e625c0c586. The catalog includes data on "
     "coastal classification, coastal exposure, and other related characteristics. "
     "Following the conclusion of the CoCliCo project in September 2025, accessing the datasets "
     "now requires an SAS token, which is available from Deltares upon reasonable request. Alternatively, "
@@ -44,7 +45,11 @@ CATALOG_DESCRIPTION = (
 # This is the future public URL of your catalog root.
 # Replace with your actual URL when you publish.
 # For now, a placeholder is fine.
-CATALOG_PUBLISHED_URL = "https://coclico.blob.core.windows.net/stac/v1/catalog.json"
+# The Deltares location is commented.
+# CATALOG_PUBLISHED_URL = "https://coclico.blob.core.windows.net/stac/v1/catalog.json"
+CATALOG_PUBLISHED_URL = (
+    "https://calkoen-stac-phd.s3.eu-central-1.amazonaws.com/v1/catalog.json"
+)
 
 COLLECTION_DIRS = [
     "gcts",
